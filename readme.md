@@ -1,6 +1,6 @@
-# OpenTrade is the best opensource cryptocurrency exchange!
+# IEXC is the best opensource cryptocurrency exchange!
 
-Live version: https://trade.multicoins.org/
+Live version: https://iexc.ru
 
 
 Step-by-step install instructions:
