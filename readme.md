@@ -5,7 +5,7 @@ Live version: https://iexc.ru
 
 Step-by-step install instructions:
 
-1. Register on the VPS hosting like this https://m.do.co/c/1ece5d76d5cd
+1. Register on the VPS hosting like this https://server185.hosting.reg.ru
 2. Create "Droplet" Ubuntu 16 x64 / 1GB / 1vCPU / 25 GB SSD
 3. Log in to Droplet over SSH (You will receive a email with IP, username and password)
 4
@@ -25,7 +25,7 @@ cd opentrade
 sudo npm install 
 ```
 
-## Here is an example of the file ~/opentrade/server/modules/private_constants.js Edit with your configs.
+## Here is an example of the file ~/iexc/server/modules/private_constants.js Edit with your configs.
 ```
 'use strict';
 
@@ -44,7 +44,7 @@ exports.walletspassphrase = {
 **After, you can run exchange**
 
 ```
-cd  ~/opentrade/server
+cd  ~/iexc/server
 sudo node main.js
 ```
 
@@ -86,7 +86,7 @@ Also, you must encrypt your cryptocurrency wallet with this command.
 *If coin is not supported by encryption (like ZerroCash and it forks) the coin can not be added to OpenTrade.*
 
 
-Add you coin details to OpenTrade
+Add you coin details to iexc
 
 1. Register on exchange. The first registered user will be exchange administrator.
 2. Go to "Admin Area" -> "Coins" -> "Add coin"
@@ -114,7 +114,7 @@ exports.my_portSSL = 40443; //change to your ssl port
 
 ```
 
-File ~/opentrade/static_pages/chart.html
+File ~/iexc/static_pages/chart.html
 
 https://github.com/3s3s/opentrade/blob/master/static_pages/chart.html#L23
 
